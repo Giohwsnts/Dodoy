@@ -93,3 +93,12 @@ h2 {
 .home-button:hover {
     background-color: #cc0000; /* Cor de fundo ao passar o mouse */
 }
+
+footer {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
