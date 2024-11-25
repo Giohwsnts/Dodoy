@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(#81d8f0, #ffffff);
+}
+
+.profile-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff; /* Cor de fundo */
+    color: rgb(255, 0, 0); /* Cor do texto */
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ffffff; /* Fundo branco ao passar o mouse */
+    color: #ff4d4d; /* Texto vermelho ao passar o mouse */
+    border: 2px solid #ff4d4d; /* Borda vermelha ao passar o mouse */
+}
+
+.remover-button {
+    margin-left: 5px;
+    padding: 4px 5px; /* Aumentando o padding para um botão maior */
+    border: none;
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: #ff4d4d; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.remover-button:hover {
+    background-color: #cc0000; /* Cor de fundo ao passar o mouse */
+    transform: scale(1.1); /* Aumenta um pouco o tamanho ao passar o mouse */
+}
+
+.home-button {
+    position: absolute; /* Permite posicionar em relação à tela */
+    top: 20px; /* Distância do topo */
+    left: 20px; /* Distância da esquerda */
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4d4d; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #cc0000; /* Cor de fundo ao passar o mouse */
+}

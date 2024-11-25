@@ -1,0 +1,61 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#81d8f0, #ffffff);
+  }
+  
+  .container {
+    position: relative;
+    text-align: center;
+  }
+  
+  /* Botões do menu */
+  .button-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .menu-button {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #ff1744;
+    background-color: #ffffff;
+    border-radius: 25px;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+  }
+  
+  .menu-button:hover {
+    border-color: #ff1744;
+  }
+  
+  .home-button {
+    position: absolute; /* Permite posicionar em relação à tela */
+    top: 20px; /* Distância do topo */
+    left: 20px; /* Distância da esquerda */
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4d4d; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+

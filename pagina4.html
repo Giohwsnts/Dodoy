@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dodoy</title>
+    <link rel="stylesheet" href="styles4.css">
+</head>
+<body>
+    <div class="profile-container">
+        <h2>Controle de Medicamentos</h2>
+
+        <div class="input-group">
+            <label for="medicamento">Nome do Medicamento:</label>
+            <input type="text" id="medicamento" placeholder="Insira o nome do medicamento">
+        </div>
+
+        <div class="input-group">
+            <label for="quantidade">Quantidade:</label>
+            <input type="number" id="quantidade" placeholder="Insira a quantidade" min="1">
+        </div>
+
+        <div class="input-group">
+            <label for="unidade">Unidade:</label>
+            <select id="unidade">
+                <option value="mg">Mg</option>
+                <option value="ml">Ml</option>
+                <option value="gotas">Gotas</option>
+                <option value="pedaços">Pedaços</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <label for="horario">Horário:</label>
+            <input type="time" id="horario">
+        </div>
+
+        <button id="adicionar" class="button">Adicionar Medicamento</button>
+
+        <h3>Medicamentos Adicionados</h3>
+        <ul id="lista-medicamentos"></ul>
+    </div>
+    <button id="home-button" class="home-button">Home</button>
+
+    <script src="script3.js"></script> <!-- Colocado no final do body -->
+</body>
+</html>

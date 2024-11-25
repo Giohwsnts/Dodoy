@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dodoy</title>
+     <link rel="stylesheet" href="styles4.css">
+</head>
+<body>
+    <div class="profile-container">
+        <h1>Frases Motivacionais</h1>
+        <div class="quote" id="quote">Clique no botão para exibir uma frase motivacional.</div>
+        <button class="button" onclick="showRandomQuote()">Nova Frase</button>
+    </div>
+
+    <script>
+        // Array com as frases motivacionais
+        const quotes = [
+            "Cada dia é uma nova oportunidade para criar momentos especiais.",
+            "Seu espírito é mais forte do que qualquer adversidade.",
+            "A vida é medida pelos momentos que tiram o nosso fôlego, não pelos minutos.",
+            "A esperança é a luz que nunca se apaga.",
+            "Você é mais corajoso do que imagina, mais forte do que parece e mais amado do que pode perceber.",
+            "Ainda há beleza em cada amanhecer e em cada pôr do sol.",
+            "Seu sorriso é um raio de luz que ilumina o mundo ao seu redor.",
+            "A força para continuar está dentro de você, mesmo nos dias mais difíceis.",
+            "Você está deixando um legado de amor e coragem.",
+            "Mesmo na tempestade, existe a promessa de um arco-íris.",
+            "Cada pequena vitória é um grande passo.",
+            "Seja gentil consigo mesmo, você está dando o seu melhor.",
+            "Aproveite cada momento como se fosse um presente, porque é isso que ele é.",
+            "O amor e o apoio ao seu redor são reflexos da pessoa incrível que você é.",
+            "Você inspira todos à sua volta com sua resiliência.",
+            "A vida é uma coleção de memórias, e você está criando as mais preciosas.",
+            "A sua força toca o coração de todos que têm o privilégio de conhecê-lo.",
+            "Há beleza em encontrar a paz no presente.",
+            "Você é uma prova viva de que o espírito humano não tem limites.",
+            "Continue a lutar, mas lembre-se: não há vergonha em descansar.",
+            "Você é um exemplo de amor em sua forma mais pura.",
+            "Mesmo na escuridão, você é uma luz para muitos.",
+            "Cada sorriso seu é uma vitória sobre a dor.",
+            "A sua presença transforma o mundo em um lugar melhor.",
+            "Você é a definição de coragem e amor incondicional.",
+            "Aceitar o momento presente pode ser um ato de imensa força.",
+            "Sua história é uma inspiração que viverá para sempre.",
+            "Você está cercado de amor, mesmo nos momentos mais difíceis.",
+            "O seu legado será de força, compaixão e determinação.",
+            "Nunca subestime o impacto que sua vida tem no coração das pessoas."
+        ];
+
+        // Função para exibir uma frase aleatória
+        function showRandomQuote() {
+            const randomIndex = Math.floor(Math.random() * quotes.length);
+            document.getElementById('quote').textContent = quotes[randomIndex];
+        }
+    </script>
+</body>
+</html>

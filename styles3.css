@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(#81d8f0, #ffffff);
+}
+
+.profile-container {
+    background-color: #ffffff;
+    padding: 30px; /* Aumentado o padding */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Você pode ajustar a largura se precisar */
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px; /* Adicionada margem abaixo do título */
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center; /* Centraliza os botões */
+    margin-top: 20px;
+}
+
+.button-group button {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #ff1744;
+    background-color: #ffffff;
+    border-radius: 25px;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    margin: 0 5px; /* Adiciona um pequeno espaço entre os botões */
+}
+
+.button-group button:hover {
+    border-color: #ff1744;
+}
+
+.home-button {
+    position: absolute; /* Permite posicionar em relação à tela */
+    top: 20px; /* Distância do topo */
+    left: 20px; /* Distância da esquerda */
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4d4d; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #cc0000; /* Cor de fundo ao passar o mouse */
+}
